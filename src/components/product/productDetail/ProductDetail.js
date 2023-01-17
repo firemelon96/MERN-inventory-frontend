@@ -79,7 +79,7 @@ const ProductDetail = () => {
             <hr />
             <div
               dangerouslySetInnerHTML={{
-                __html: DOMPurify.sanitize(product.desription),
+                __html: DOMPurify.sanitize(product.description),
               }}
             ></div>
             <hr />
