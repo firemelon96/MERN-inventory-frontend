@@ -77,6 +77,10 @@ const ProductDetail = () => {
               {product.price * product.quantity}
             </p>
             <hr />
+            <p>
+              <b>&rarr; Description : </b>
+            </p>{" "}
+            <br />
             <div
               dangerouslySetInnerHTML={{
                 __html: DOMPurify.sanitize(product.description),
